@@ -37,7 +37,6 @@
 
 .agenda__lista {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     column-gap: 1.5rem;
     row-gap: 1rem;
@@ -64,14 +63,14 @@
         justify-content: end;
     }
 
-    .agenda__item{
+    .agenda__lista {
         justify-content: end;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .menu {
-        column-gap: 105px;
+        column-gap: 122px;
         flex-wrap: nowrap;
     }
 
