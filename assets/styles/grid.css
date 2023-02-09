@@ -15,10 +15,30 @@
 .eventos__item {
     display: grid;
     grid-template-areas: 
-        "imagem imagem"
-        "nome nome"
-        "data data"
-        "local botao";
+        "imagem imagem imagem"
+        "nome nome nome"
+        "data data data"
+        "local local botao";
+}
+
+.eventos__item img {
+    grid-area: imagem;
+}
+
+.eventos__item h3 {
+    grid-area: nome;
+}
+
+.eventos__item h4 {
+    grid-area: data;
+}
+
+.eventos__item h5 {
+    grid-area: local;
+}
+
+.eventos__item button {
+    grid-area: botao;
 }
 
 @media screen and (min-width: 720px) {
