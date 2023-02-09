@@ -6,6 +6,12 @@
     column-gap: 33px;
 }
 
+.categorias__listas {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5em;
+}
+
 @media screen and (min-width: 720px) {
     .menu {
         column-gap: 75px;
