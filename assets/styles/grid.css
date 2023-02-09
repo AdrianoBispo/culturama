@@ -14,11 +14,13 @@
 
 .eventos__item {
     display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto repeat(2, 1fr) auto;
     grid-template-areas: 
-        "imagem imagem imagem"
-        "nome nome nome"
-        "data data data"
-        "local local botao";
+        "imagem imagem"
+        "nome nome"
+        "data data"
+        "local botao";
 }
 
 .eventos__item img {
